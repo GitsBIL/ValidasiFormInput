@@ -12,7 +12,7 @@ Jika semua data valid, program akan menampilkan pesan konfirmasi pendaftaran. Na
 
 ## 1. Mengimpor Library
 
-    ![Gambar1]()
+    ![Gambar](./Gambar/gambar%201.png)
 
     - Library re digunakan untuk operasi regular expression (regex).
     - Regex sangat berguna untuk memvalidasi pola teks, seperti memastikan bahwa nama hanya mengandung huruf dan spasi.
