@@ -35,11 +35,11 @@ def main():
     if email_error:
         errors.append(email_error)
 
-    if errors: 
+    if errors:  
         print("Terjadi kesalahan dalam input:")
         for error in errors:
             print(f"- {error}")
-    else: 
+    else:  
         print("Data pendaftaran valid.")
 
 if __name__ == "__main__":
