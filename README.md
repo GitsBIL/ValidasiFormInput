@@ -34,7 +34,7 @@ Regex:
 
 ## 3. Fungsi Validasi Nomor Telepon
 
-    ![Gambar]()
+![Gambar](./Gambar/gambar%203.png)
 
     - Fungsi ini menerima parameter phone (nomor telepon yang diinput pengguna).
     - Menggunakan .isdigit() untuk memeriksa apakah semua karakter dalam phone adalah angka.
@@ -45,7 +45,7 @@ Regex:
 
 ## 4. Fungsi Validasi Email
 
-    ![Gambar]()
+![Gambar](./Gambar/gambar%204.png)
 
     - Fungsi ini menerima parameter email (email yang diinput pengguna).
     - Memastikan email mengandung karakter @ dan ..
@@ -59,39 +59,39 @@ Menggunakan kondisi sederhana:
 
 ## 5. Program Utama
 
-    ![Gambar]()
+![Gambar](./Gambar/gambar%205.png)
 
 ### Penjelasan:
     
     1. Menampilkan pesan awal:
 
-        [Gambar]()
+![Gambar](./Gambar/gambar%206.png)
 
         -  Memberikan instruksi kepada pengguna untuk memasukkan data.
 
     2. Menerima input pengguna:
 
-        [Gambar]()
+[Gambar](./Gambar/gambar%207.png)
 
         - Fungsi input() digunakan untuk mengambil data dari pengguna.
         - .strip() menghapus spasi di awal dan akhir input.
     
     3. Membuat daftar untuk pesan error:
 
-        [Gambar]()
+![Gambar](./Gambar/gambar%208.png)
 
         - Daftar ini digunakan untuk menyimpan pesan error yang muncul selama validasi.
 
     4. Memanggil fungsi validasi:
 
-        [Gambar]()
+![Gambar](./Gambar/gambar%209.png)
 
         - Memeriksa setiap input menggunakan fungsi validasi.
         - Jika fungsi validasi mengembalikan pesan error, tambahkan ke daftar errors.
 
     5. Menampilkan hasil validasi:
 
-        [Gambar]()
+![Gambar](./Gambar/gambar%2010.png)
 
         - Jika daftar errors tidak kosong, artinya ada kesalahan.
         - Tampilkan semua pesan error.
@@ -99,7 +99,7 @@ Menggunakan kondisi sederhana:
 
     6. Menjalankan Program
 
-        [Gambar]()
+![Gambar](./Gambar/gambar%2011.png)
 
         - Kondisi ini memastikan bahwa program utama hanya akan dijalankan jika file Python ini dijalankan secara langsung.
         - Jika file ini diimpor ke program lain, fungsi main() tidak akan otomatis dijalankan.
@@ -108,11 +108,12 @@ Menggunakan kondisi sederhana:
 
 ### Input Valid :
 
-    [Gambar]()
+![Gambar](./Gambar/gambar%2012.png)
 
 ### Input Tidak Valid :
 
-    [Gambar()]
+![Gambar](./Gambar/gambar%2013.png)
+
 
 
 
