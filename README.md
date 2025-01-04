@@ -12,14 +12,14 @@ Jika semua data valid, program akan menampilkan pesan konfirmasi pendaftaran. Na
 
 ## 1. Mengimpor Library
 
-    ![Gambar](./Gambar/gambar%201.png)
+![Gambar](./Gambar/gambar%201.png)
 
     - Library re digunakan untuk operasi regular expression (regex).
     - Regex sangat berguna untuk memvalidasi pola teks, seperti memastikan bahwa nama hanya mengandung huruf dan spasi.
 
 ## 2. Fungsi Validasi Nama
 
-    ![Gambar]()
+![Gambar](./Gambar/gambar%202.png)
 
     - Fungsi ini menerima parameter name (nama lengkap yang diinput oleh pengguna).
     - Menggunakan re.fullmatch(r"[A-Za-z ]+", name) untuk memeriksa apakah name hanya mengandung huruf (A-Z, a-z) dan spasi.
